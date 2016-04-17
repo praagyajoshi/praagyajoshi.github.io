@@ -1853,7 +1853,7 @@ table th {
 .title,
 .subtitle {
   font-weight: 300;
-  word-break: break-all;
+  word-break: normal;
 }
 
 .title em,
