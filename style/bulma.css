@@ -328,9 +328,17 @@ table th {
   border-radius: 50%;
   width: 170px;
   border: 2px solid #ffffff;
-  -webkit-box-shadow: 0px 0px 28px -6px rgba(0,0,0,1);
-  -moz-box-shadow: 0px 0px 28px -6px rgba(0,0,0,1);
-  box-shadow: 0px 0px 28px -6px rgba(0,0,0,1);
+  -webkit-box-shadow: 0px 0px 20px -6px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 20px -6px rgba(0,0,0,1);
+  box-shadow: 0px 0px 20px -6px rgba(0,0,0,1);
+  -webkit-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
+}
+
+.profile-image:hover {
+  -webkit-box-shadow: 0px 0px 30px -6px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 30px -6px rgba(0,0,0,1);
+  box-shadow: 0px 0px 30px -6px rgba(0,0,0,1);
 }
 
 @media screen and (min-width: 980px) {
@@ -716,6 +724,12 @@ table th {
 
 .is-hidden {
   display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .has-text-centered-mobile {
+    text-align: center !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
