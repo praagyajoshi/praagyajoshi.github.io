@@ -243,7 +243,7 @@ a {
 }
 
 a:hover {
-  text-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+  text-shadow: 0px 0px 8px rgba(255,255,255,0.6);
 }
 
 a:visited, a:hover, a:active, a:focus {
@@ -344,7 +344,7 @@ table th {
 }
 
 .name:hover {
-  text-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+  text-shadow: 0px 0px 8px rgba(255,255,255,0.6);
 }
 
 .name:hover::after {
@@ -5760,4 +5760,36 @@ a.header-item.is-active {
 .footer a:not(.icon):hover {
   border-bottom-color: #1fc8db;
 }
+
+.hero.home-page-hero .hero-content {
+  margin: 0px;
+  padding: 20px;
+  border: 10px solid white;
+}
+
+.contact-button:hover, .contact-button:active {
+  color: #222324;
+  background-color: white;
+  border-color: white;
+  box-shadow: none;
+}
+
+.contact-button {
+  background-color: transparent;
+  border-radius: 0;
+  border: 2px solid white;
+  margin: 0px 0px 20px 0px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+@media screen and (min-width: 980px) {
+  .contact-button {
+    margin-top: 20px;
+  }
+}
+
 /*# sourceMappingURL=bulma.css.map */
