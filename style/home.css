@@ -70,3 +70,7 @@ a:hover {
 .hero.home-page-hero .hero-foot {
   padding-bottom: 3rem;
 }
+
+.icon {
+  font-size: 18px;
+}
