@@ -12,6 +12,8 @@ a:hover {
 .intro .title {
   font-family: 'Alegreya', serif;
   margin-bottom: 30px;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .intro .subtitle {
